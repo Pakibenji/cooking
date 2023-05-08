@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#2B2D2A, #7a7a7a) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 50px 0 50px;
+    border : 1px solid #e3a03c;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 5px #e3a03c;
+    background : url(../../assets/img/banner.jpg)  no-repeat center center / cover;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+    margin: 50px 0;
+    color: #e3a03c;
+    border: 1px solid #e3a03c;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
